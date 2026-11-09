@@ -4016,10 +4016,12 @@ function wp_post_mime_type_where( $post_mime_types, $table_alias = '' ) {
  * @see wp_delete_attachment()
  * @see wp_trash_post()
  *
- * @param int  $post_id      Post ID. (The default of 0 is for historical reasons; providing it is incorrect.)
- * @param bool $force_delete Optional. Whether to bypass Trash and force deletion.
- *                           Default false.
+ * @param int|string $post_id      Post ID. (The default of 0 is for historical reasons; providing it is incorrect.)
+ * @param bool       $force_delete Optional. Whether to bypass Trash and force deletion.
+ *                                 Default false.
  * @return WP_Post|false|null Post data on success, false or null on failure.
+ *
+ * @phpstan-param int|numeric-string $post_id
  */
 function wp_delete_post( $post_id = 0, $force_delete = false ) {
 	global $wpdb;

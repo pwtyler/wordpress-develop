@@ -813,8 +813,10 @@ function choose_primary_blog() {
  *
  * @since 3.1.0
  *
- * @param int $network_id The network ID to check.
+ * @param int|string $network_id The network ID to check.
  * @return bool True if network can be edited, false otherwise.
+ *
+ * @phpstan-param int|numeric-string $network_id
  */
 function can_edit_network( $network_id ) {
 	if ( get_current_network_id() === (int) $network_id ) {

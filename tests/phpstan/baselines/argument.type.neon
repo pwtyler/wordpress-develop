@@ -214,20 +214,10 @@ parameters:
 			count: 1
 			path: ../../../src/wp-admin/includes/ms.php
 		-
-			message: '#^Parameter \#1 \$post_id of function wp_delete_post expects int, string\|null given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/includes/ms.php
-		-
 			message: '#^Parameter \#3 \$value of function update_blog_status expects string, int given\.$#'
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-admin/includes/ms.php
-		-
-			message: '#^Parameter \#1 \$post_id of function wp_delete_post expects int, string\|null given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/includes/nav-menu.php
 		-
 			message: '#^Parameter \#2 \$arr2 of function array_intersect expects an array of values castable to string, array\<WP_Term\> given\.$#'
 			identifier: argument.type
@@ -319,11 +309,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-admin/includes/user.php
 		-
-			message: '#^Parameter \#1 \$post_id of function wp_delete_post expects int, string\|null given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/includes/user.php
-		-
 			message: '#^Parameter \#1 \$user of function wp_get_user_contact_methods expects WP_User\|null, stdClass given\.$#'
 			identifier: argument.type
 			count: 1
@@ -339,26 +324,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-admin/nav-menus.php
 		-
-			message: '#^Parameter \#1 \$network_id of function can_edit_network expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/network/site-info.php
-		-
-			message: '#^Parameter \#1 \$network_id of function can_edit_network expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/network/site-settings.php
-		-
-			message: '#^Parameter \#1 \$network_id of function can_edit_network expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/network/site-themes.php
-		-
-			message: '#^Parameter \#1 \$network_id of function can_edit_network expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-admin/network/site-users.php
-		-
 			message: '#^Parameter \#2 \$callback of function array_filter expects \(callable\(mixed\)\: bool\)\|null, ''validate_file'' given\.$#'
 			identifier: argument.type
 			count: 1
@@ -373,26 +338,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-admin/update.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyeleven/author.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyeleven/content-image.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 2
-			path: ../../../src/wp-content/themes/twentyeleven/content-single.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyeleven/functions.php
 		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
@@ -419,11 +364,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-content/themes/twentyeleven/showcase.php
 		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyfifteen/author-bio.php
-		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
 			count: 1
@@ -433,11 +373,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-content/themes/twentyfifteen/image.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyfifteen/inc/template-tags.php
 		-
 			message: '#^Parameter \#3 \$number of function _n expects int, string given\.$#'
 			identifier: argument.type
@@ -454,16 +389,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-content/themes/twentyfourteen/image.php
 		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyfourteen/inc/template-tags.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyfourteen/inc/widgets.php
-		-
 			message: '#^Parameter \#3 \$deps of function wp_enqueue_style expects array\<string\>, false given\.$#'
 			identifier: argument.type
 			count: 1
@@ -479,21 +404,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-content/themes/twentynineteen/inc/helper-functions.php
 		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentynineteen/inc/template-tags.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentynineteen/template-parts/post/author-bio.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyseventeen/inc/template-tags.php
-		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
 			count: 1
@@ -503,37 +413,12 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-content/themes/twentysixteen/image.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentysixteen/inc/template-tags.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentysixteen/template-parts/biography.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyten/author.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyten/functions.php
 		-
 			message: '#^Parameter \#1 \$wp_head_callback of function add_custom_image_header expects callable\(\)\: mixed, '''' given\.$#'
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-content/themes/twentyten/functions.php
 		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyten/loop-attachment.php
-		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
 			count: 1
@@ -544,26 +429,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-content/themes/twentyten/loop-attachment.php
 		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentyten/loop-single.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentythirteen/author-bio.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentythirteen/author.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentythirteen/functions.php
-		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
 			count: 1
@@ -573,21 +438,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-content/themes/twentythirteen/image.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwelve/author.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwelve/content.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwelve/functions.php
 		-
 			message: '#^Parameter \#1 \$size of function next_image_link expects array\<int\>\|string, false given\.$#'
 			identifier: argument.type
@@ -613,26 +463,6 @@ parameters:
 			identifier: argument.type
 			count: 1
 			path: ../../../src/wp-content/themes/twentytwenty/functions.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwenty/inc/template-tags.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwenty/template-parts/entry-author-bio.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwentyone/inc/template-tags.php
-		-
-			message: '#^Parameter \#1 \$author_id of function get_author_posts_url expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-content/themes/twentytwentyone/template-parts/post/author-bio.php
 		-
 			message: '#^Parameter \#2 \$size of function get_avatar expects int, string given\.$#'
 			identifier: argument.type
@@ -959,11 +789,6 @@ parameters:
 			count: 1
 			path: ../../../src/wp-includes/ms-load.php
 		-
-			message: '#^Parameter \#1 \$post_id of function wp_delete_post expects int, string given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../src/wp-includes/nav-menu.php
-		-
 			message: '#^Parameter \#1 \$postarr of function wp_insert_post expects array\{ID\?\: int, post_author\?\: int, post_date\?\: string, post_date_gmt\?\: string, post_content\?\: string, post_content_filtered\?\: string, post_title\?\: string, post_excerpt\?\: string, \.\.\., \.\.\.\}, array\{menu_order\: mixed, ping_status\: 0, post_content\: mixed, post_excerpt\: mixed, post_parent\: int\|string\|WP_Error\|null, post_title\: mixed, post_type\: ''nav_menu_item'', post_date\?\: non\-falsy\-string, \.\.\.\} given\.$#'
 			identifier: argument.type
 			count: 1
@@ -1042,11 +867,6 @@ parameters:
 			message: '#^Parameter \#1 \$post of function get_post expects int\|numeric\-string\|WP_Post\|null, stdClass given\.$#'
 			identifier: argument.type
 			count: 2
-			path: ../../../src/wp-includes/post.php
-		-
-			message: '#^Parameter \#1 \$post_id of function wp_delete_post expects int, string\|null given\.$#'
-			identifier: argument.type
-			count: 1
 			path: ../../../src/wp-includes/post.php
 		-
 			message: '#^Parameter \#1 \$posts of function update_post_cache expects array\<WP_Post\>, list\<stdClass\> given\.$#'
